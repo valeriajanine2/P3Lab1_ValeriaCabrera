@@ -38,7 +38,11 @@ int main(int argc, char** argv) {
 			//fin del case 1
 			
 			case 2:{
-				cout<<"Resolucion de division"<<endl;
+				double x,total;
+				cout<<"Ingrese el valor de x: ";
+				cin>>x;
+				total= 1 / (1+exp(x));
+				cout<<"Total: "<<total<<endl;
 				break;
 			}
 			//fin del case 2

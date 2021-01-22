@@ -32,7 +32,7 @@ int main(int argc, char** argv) {
 				for(int i=0; i <=n; i++){
 					sum+=i*pow((i+1),2);
 				}
-				cout<<"total: "<<sum<<endl;
+				cout<<"S("<<n<<") = "<<sum<<endl;
 				break;
 			}
 			//fin del case 1
@@ -42,7 +42,7 @@ int main(int argc, char** argv) {
 				cout<<"Ingrese el valor de x: ";
 				cin>>x;
 				total= 1 / (1+exp(x));
-				cout<<"Total: "<<total<<endl;
+				cout<<"f("<<x<<") = "<<total<<endl;
 				break;
 			}
 			//fin del case 2
